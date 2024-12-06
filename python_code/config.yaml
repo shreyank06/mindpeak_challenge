@@ -1,0 +1,3 @@
+wsi_images_folder: "./wsi_images"       # Relative path to the folder containing WSI images
+file_extension: ".svs"                  # File extension to process
+save_patches: true                      # Whether to save individual patches for debugging
