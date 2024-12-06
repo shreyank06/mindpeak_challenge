@@ -4,6 +4,8 @@ This repository contains the code and pipeline for the MindPeak challenge. Follo
 
 ## Setup Instructions
 
+Before proceeding, you will have to manually download the wsi_images and place it **wsi_images** folder which is inside **python_code** folder
+
 
 1. **Create the Environment (if not already created)**
 ```
