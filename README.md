@@ -4,15 +4,17 @@ This repository contains the code and pipeline for the MindPeak challenge. Follo
 
 ## Setup Instructions
 
-1. **Activate the Conda Environment**  
+
+1. **Create the Environment (if not already created)**
+```
+conda env create -f environment.yml
+```
+
+2. **Activate the Conda Environment**  
 ```
    conda activate histogpt_env
 ```
 
-2. **Create the Environment (if not already created)**
-```
-conda env create -f environment.yml
-```
 3. **Install Required Packages**
 ```
 pip3.10 install openslide-python opencv-python transformers==4.38.2
