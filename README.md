@@ -1,50 +1,41 @@
-# mindpeak_challenge
+# MindPeak Challenge
 
-conda activate histogpt_env
+This repository contains the code and pipeline for the MindPeak challenge. Follow the steps below to set up the environment, install dependencies, and run the pipeline.
 
-To do
+## Setup Instructions
+
+1. **Activate the Conda Environment**  
 ```
-check whether different texts are generated for different svs files
+   conda activate histogpt_env
 ```
-```
-change the code for multiple svs files
-```
-packages needed
-```
-pip3.10 install openslide-python
-```
-```
-pip3.10 install opencv-python
-```
-```
-sudo pip3.10 install transformers==4.38.2
-```
-install dagster
-```
-pip install dagster dagit
-```
-run pipeline
-```
-dagit -f dagster_pipeline.py
-```
-start the enviornment
+
+2. **Create the Environment (if not already created)**
 ```
 conda env create -f environment.yml
 ```
+3. **Install Required Packages**
+```
+pip3.10 install openslide-python opencv-python transformers==4.38.2
+pip install dagster dagit
+```
 
-after installing the model weights change the model_names from 
+4. **Run the Pipeline**
+```
+dagit -f dagster_pipeline.py
+```
+
+5. **Model Configuration**
+After downloading model weights, update the file names in the code:
+Change
 ```
 histogpt-1b-6k-pruned.pth?download=true
-```
-to 
-```
+to
 histogpt-1b-6k-pruned.pth
 ```
 and 
 ```
 ctranspath.pth?download=true
 ```
-to 
 ```
-ctranspath.pth?
+ctranspath.pth
 ```
