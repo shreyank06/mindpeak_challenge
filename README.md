@@ -7,23 +7,13 @@ This repository contains the code and pipeline for the MindPeak challenge. Follo
 Before proceeding, you will have to manually download the wsi_images and place it **wsi_images** folder which is inside **python_code** folder
 
 
-1. **Create the Environment (if not already created)**
-```
-conda env create -f environment.yml
-```
-
-2. **Activate the Conda Environment**  
-```
-   conda activate histogpt_env
-```
-
-3. **Install Required Packages**
+1. **Install Required Packages**
 ```
 pip3.10 install openslide-python opencv-python transformers==4.38.2
 pip install dagster dagit
 ```
 
-4. **Run the Pipeline**
+2. **Run the Pipeline**
 ```
 cd python_code
 ```
@@ -31,7 +21,7 @@ cd python_code
 dagit -f dagster_pipeline.py
 ```
 
-5. **Model Configuration**
+3. **Model Configuration**
 After downloading model weights, update the file names in the code:
 Change
 ```
