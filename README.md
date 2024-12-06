@@ -4,7 +4,9 @@ This repository contains the code and pipeline for the MindPeak challenge. Follo
 
 ## Setup Instructions
 
-Before proceeding, you will have to manually download the wsi_images and place it **wsi_images** folder which is inside **python_code** folder
+Before proceeding, you will have to manually download the wsi_images and place it **wsi_images** folder which is inside **python_code** folder.
+
+The model weights are not in this repo because it could not be transferred to git because of its large size.
 
 
 1. **Install Required Packages**
@@ -16,6 +18,9 @@ pip install dagster dagit
 2. **Run the Pipeline**
 ```
 cd python_code
+```
+```
+download model weights
 ```
 ```
 dagit -f dagster_pipeline.py
