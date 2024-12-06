@@ -12,7 +12,7 @@ def run_embedding_generation():
 @op
 def run_report_generation(embedding_status: str):
     # embedding_status ensures this runs after `run_embedding_generation`
-    os.system("python3.10 final_script.py")
+    os.system("python3.10 dagit -f dagster_pipeline.py")
     return "Reports generated successfully."
 
 # Step 3: Aggregate Reports
