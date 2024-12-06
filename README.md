@@ -35,7 +35,6 @@ histogpt-1b-6k-pruned.pth
 and 
 ```
 ctranspath.pth?download=true
-```
-```
+to
 ctranspath.pth
 ```
