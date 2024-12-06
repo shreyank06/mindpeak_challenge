@@ -23,6 +23,9 @@ pip install dagster dagit
 
 4. **Run the Pipeline**
 ```
+cd python_code
+```
+```
 dagit -f dagster_pipeline.py
 ```
 
