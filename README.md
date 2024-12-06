@@ -26,7 +26,7 @@ dagit -f dagster_pipeline.py
 ```
 
 3. **Model Configuration**
-After downloading model weights, update the file names in the code:
+After downloading model weights, update the file names for the model weights:
 Change
 ```
 histogpt-1b-6k-pruned.pth?download=true
