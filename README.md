@@ -1,6 +1,6 @@
 # MindPeak Challenge
 
-This repository implements a machine learning data pipeline for generating diagnostic text from whole slide images (WSI) using the HistoGPT model. The pipeline automates embedding generation with the CTranspath model, diagnostic text prediction via transformers, and result aggregation into a CSV. Built for data science workflows, it supports configurable inputs, debugging, and scalable orchestration with tools like DVC or Dagster.
+This repository implements a **machine learning data pipeline** for generating diagnostic text from whole slide images (WSI) using the HistoGPT model. The pipeline automates embedding generation with the CTranspath model, diagnostic text prediction via transformers, and result aggregation into a CSV. **Built for data science workflows,** it supports configurable inputs, debugging, and scalable orchestration with tools like DVC or Dagster.
 This repository contains the code and pipeline for the MindPeak challenge. Follow the steps below to set up the environment, install dependencies, and run the pipeline.
 
 ## Setup Instructions
